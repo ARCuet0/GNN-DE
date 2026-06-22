@@ -1,0 +1,291 @@
+{
+  "reference": "GNN_DE",
+  "test": "mannwhitneyu_unpaired",
+  "tau": 0.0001,
+  "alpha": 0.05,
+  "n_functions": 16,
+  "caveat": "single fixed instance per function (instance_seed=3849)",
+  "per_algorithm": {
+    "DE": {
+      "W": 10,
+      "T": 3,
+      "L": 3,
+      "net": 7,
+      "gnnde_wins": [
+        "Bent_Cigar",
+        "Buche_Rastrigin",
+        "Different_Powers",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Lunacek_bi_Rastrigin",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Sharp_Ridge",
+        "Step_Ellipsoidal"
+      ],
+      "gnnde_losses": [
+        "Composite_Grie_rosen",
+        "Schaffers_high_cond",
+        "Schwefel"
+      ]
+    },
+    "MADDE": {
+      "W": 12,
+      "T": 0,
+      "L": 4,
+      "net": 8,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Bent_Cigar",
+        "Buche_Rastrigin",
+        "Different_Powers",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Lunacek_bi_Rastrigin",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Schaffers_high_cond",
+        "Sharp_Ridge",
+        "Step_Ellipsoidal"
+      ],
+      "gnnde_losses": [
+        "Composite_Grie_rosen",
+        "Gallagher_21Peaks",
+        "Katsuura",
+        "Schwefel"
+      ]
+    },
+    "NLSHADELBC": {
+      "W": 5,
+      "T": 4,
+      "L": 7,
+      "net": -2,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated"
+      ],
+      "gnnde_losses": [
+        "Bent_Cigar",
+        "Composite_Grie_rosen",
+        "Different_Powers",
+        "Gallagher_21Peaks",
+        "Katsuura",
+        "Schaffers_high_cond",
+        "Schwefel"
+      ]
+    },
+    "JDE21": {
+      "W": 10,
+      "T": 4,
+      "L": 2,
+      "net": 8,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Buche_Rastrigin",
+        "Different_Powers",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Schaffers_high_cond",
+        "Sharp_Ridge",
+        "Step_Ellipsoidal"
+      ],
+      "gnnde_losses": [
+        "Gallagher_21Peaks",
+        "Schwefel"
+      ]
+    },
+    "Random_search": {
+      "W": 15,
+      "T": 1,
+      "L": 0,
+      "net": 15,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Bent_Cigar",
+        "Buche_Rastrigin",
+        "Composite_Grie_rosen",
+        "Different_Powers",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Gallagher_21Peaks",
+        "Lunacek_bi_Rastrigin",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Schaffers_high_cond",
+        "Schwefel",
+        "Sharp_Ridge",
+        "Step_Ellipsoidal"
+      ],
+      "gnnde_losses": []
+    },
+    "DEDDQN": {
+      "W": 6,
+      "T": 1,
+      "L": 9,
+      "net": -3,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Buche_Rastrigin",
+        "Lunacek_bi_Rastrigin",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Schwefel"
+      ],
+      "gnnde_losses": [
+        "Bent_Cigar",
+        "Different_Powers",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Gallagher_21Peaks",
+        "Katsuura",
+        "Schaffers_high_cond",
+        "Sharp_Ridge",
+        "Step_Ellipsoidal"
+      ]
+    },
+    "DEDQN": {
+      "W": 16,
+      "T": 0,
+      "L": 0,
+      "net": 16,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Bent_Cigar",
+        "Buche_Rastrigin",
+        "Composite_Grie_rosen",
+        "Different_Powers",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Gallagher_21Peaks",
+        "Katsuura",
+        "Lunacek_bi_Rastrigin",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Schaffers_high_cond",
+        "Schwefel",
+        "Sharp_Ridge",
+        "Step_Ellipsoidal"
+      ],
+      "gnnde_losses": []
+    },
+    "LDE": {
+      "W": 9,
+      "T": 4,
+      "L": 3,
+      "net": 6,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Buche_Rastrigin",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Lunacek_bi_Rastrigin",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Schwefel",
+        "Sharp_Ridge"
+      ],
+      "gnnde_losses": [
+        "Composite_Grie_rosen",
+        "Different_Powers",
+        "Gallagher_21Peaks"
+      ]
+    },
+    "RLHPSDE": {
+      "W": 14,
+      "T": 2,
+      "L": 0,
+      "net": 14,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Bent_Cigar",
+        "Buche_Rastrigin",
+        "Composite_Grie_rosen",
+        "Different_Powers",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Katsuura",
+        "Lunacek_bi_Rastrigin",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Schaffers_high_cond",
+        "Schwefel",
+        "Sharp_Ridge"
+      ],
+      "gnnde_losses": []
+    },
+    "GLEET": {
+      "W": 11,
+      "T": 2,
+      "L": 3,
+      "net": 8,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Buche_Rastrigin",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Gallagher_21Peaks",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Schaffers_high_cond",
+        "Schwefel",
+        "Sharp_Ridge",
+        "Step_Ellipsoidal"
+      ],
+      "gnnde_losses": [
+        "Composite_Grie_rosen",
+        "Katsuura",
+        "Lunacek_bi_Rastrigin"
+      ]
+    },
+    "RLDAS": {
+      "W": 11,
+      "T": 1,
+      "L": 4,
+      "net": 7,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Buche_Rastrigin",
+        "Different_Powers",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Lunacek_bi_Rastrigin",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Schaffers_high_cond",
+        "Sharp_Ridge",
+        "Step_Ellipsoidal"
+      ],
+      "gnnde_losses": [
+        "Composite_Grie_rosen",
+        "Gallagher_21Peaks",
+        "Katsuura",
+        "Schwefel"
+      ]
+    },
+    "RLDEAFL": {
+      "W": 11,
+      "T": 5,
+      "L": 0,
+      "net": 11,
+      "gnnde_wins": [
+        "Attractive_Sector",
+        "Buche_Rastrigin",
+        "Discus",
+        "Ellipsoidal_high_cond",
+        "Gallagher_21Peaks",
+        "Rosenbrock_original",
+        "Rosenbrock_rotated",
+        "Schaffers_high_cond",
+        "Schwefel",
+        "Sharp_Ridge",
+        "Step_Ellipsoidal"
+      ],
+      "gnnde_losses": []
+    }
+  }
+}

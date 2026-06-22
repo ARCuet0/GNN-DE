@@ -1,0 +1,85 @@
+{
+  "n_instances": 280,
+  "seeds": 51,
+  "maxFEs": 500,
+  "agents": [
+    "GNN_DE",
+    "Random_search",
+    "MadDE",
+    "NLSHADELBC",
+    "RLDE_AFL"
+  ],
+  "aei_cost_mean": {
+    "GNN_DE": 1.0024360568017352,
+    "MadDE": 1.0003361773408708,
+    "NLSHADELBC": 1.0003731250114063,
+    "RLDE_AFL": 1.0010527958694915
+  },
+  "aei_cost_std": {
+    "GNN_DE": 0.1472501650147444,
+    "MadDE": 0.14666236416938966,
+    "NLSHADELBC": 0.14666979781709918,
+    "RLDE_AFL": 0.14678661605887403
+  },
+  "mean_final_best_over_instances": {
+    "GNN_DE": 533.2409130919214,
+    "Random_search": 535.7098282210934,
+    "MadDE": 535.8186784936302,
+    "NLSHADELBC": 535.7731110283546,
+    "RLDE_AFL": 534.9351801375202
+  },
+  "gnnde_head_to_head": {
+    "Random_search": {
+      "gnnde_wins": 280,
+      "ties": 0,
+      "gnnde_losses": 0,
+      "wilcoxon_p": 1.1381450406342067e-47
+    },
+    "MadDE": {
+      "gnnde_wins": 280,
+      "ties": 0,
+      "gnnde_losses": 0,
+      "wilcoxon_p": 1.1381450406342067e-47
+    },
+    "NLSHADELBC": {
+      "gnnde_wins": 280,
+      "ties": 0,
+      "gnnde_losses": 0,
+      "wilcoxon_p": 1.1381450406342067e-47
+    },
+    "RLDE_AFL": {
+      "gnnde_wins": 280,
+      "ties": 0,
+      "gnnde_losses": 0,
+      "wilcoxon_p": 1.1381450406342067e-47
+    }
+  },
+  "rlde_head_to_head": {
+    "GNN_DE": {
+      "rlde_wins": 0,
+      "ties": 0,
+      "rlde_losses": 280,
+      "wilcoxon_p": 1.1381450406342067e-47
+    },
+    "Random_search": {
+      "rlde_wins": 280,
+      "ties": 0,
+      "rlde_losses": 0,
+      "wilcoxon_p": 1.1381450406342067e-47
+    },
+    "MadDE": {
+      "rlde_wins": 280,
+      "ties": 0,
+      "rlde_losses": 0,
+      "wilcoxon_p": 1.1381450406342067e-47
+    },
+    "NLSHADELBC": {
+      "rlde_wins": 280,
+      "ties": 0,
+      "rlde_losses": 0,
+      "wilcoxon_p": 1.1381450406342067e-47
+    }
+  },
+  "baseline_cost_avg": -2.7287834795235715,
+  "reference_agent": "Random_search"
+}

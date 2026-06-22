@@ -1,0 +1,49 @@
+{
+  "n_instances": 280,
+  "seeds": 51,
+  "maxFEs": 500,
+  "agents": [
+    "GNN_DE",
+    "Random_search",
+    "MadDE",
+    "NLSHADELBC"
+  ],
+  "aei_cost_mean": {
+    "GNN_DE": 1.0024360568017354,
+    "MadDE": 1.0003361773408708,
+    "NLSHADELBC": 1.000373125011406
+  },
+  "aei_cost_std": {
+    "GNN_DE": 0.1472501650147444,
+    "MadDE": 0.14666236416938966,
+    "NLSHADELBC": 0.14666979781709918
+  },
+  "mean_final_best_over_instances": {
+    "GNN_DE": 533.2409130919214,
+    "Random_search": 535.7098282210934,
+    "MadDE": 535.8186784936302,
+    "NLSHADELBC": 535.7731110283546
+  },
+  "gnnde_head_to_head": {
+    "Random_search": {
+      "gnnde_wins": 280,
+      "ties": 0,
+      "gnnde_losses": 0,
+      "wilcoxon_p": 1.1381450406342067e-47
+    },
+    "MadDE": {
+      "gnnde_wins": 280,
+      "ties": 0,
+      "gnnde_losses": 0,
+      "wilcoxon_p": 1.1381450406342067e-47
+    },
+    "NLSHADELBC": {
+      "gnnde_wins": 280,
+      "ties": 0,
+      "gnnde_losses": 0,
+      "wilcoxon_p": 1.1381450406342067e-47
+    }
+  },
+  "baseline_cost_avg": -2.7287834795235715,
+  "reference_agent": "Random_search"
+}

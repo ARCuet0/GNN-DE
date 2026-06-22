@@ -4,10 +4,10 @@ __pycache__/
 *.pyo
 *.egg-info/
 
-# Regeneratable evaluation outputs
-eval_metabox/results/
-results/
-RESULTS/
+# Regeneratable evaluation outputs (anchored to repo root; the published
+# per-seed results under eval_metabox/results/ are tracked on purpose)
+/results/
+/RESULTS/
 
 # TensorBoard events
 *.tfevents.*

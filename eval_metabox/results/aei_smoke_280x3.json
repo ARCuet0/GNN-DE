@@ -1,0 +1,23 @@
+{
+  "n_instances": 280,
+  "seeds": 3,
+  "maxFEs": 500,
+  "aei_cost_mean": {
+    "GNN_DE": 1.0026171400482464
+  },
+  "aei_cost_std": {
+    "GNN_DE": 0.1473461934516676
+  },
+  "baseline_cost_avg": -2.728771703784177,
+  "baseline_cost_std": 0.0002675929133769821,
+  "gnnde_vs_rs_final_best": {
+    "wins": 280,
+    "ties": 0,
+    "losses": 0
+  },
+  "mean_final_best": {
+    "GNN_DE": 533.0060327075777,
+    "Random_search": 535.695823475436
+  },
+  "wall_seconds": 498.48441915
+}
