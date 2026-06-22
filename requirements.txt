@@ -1,0 +1,12 @@
+# GNN-DE core dependencies (versions used for the paper).
+# A CUDA build of torch is used for training and the GNN-DE forward pass;
+# CPU is sufficient to reproduce the evaluations.
+torch==2.6.0
+torch_geometric==2.7.0
+numpy==2.4.2
+scipy==1.16.3
+opfunu==1.0.1
+
+# The BBOB and protein-docking transfer experiments run through the MetaBox
+# platform (metaevobox). Install it separately, see:
+#   https://github.com/MetaEvoBox/MetaBox

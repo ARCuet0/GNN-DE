@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Regeneratable evaluation outputs
+eval_metabox/results/
+results/
+RESULTS/
+
+# TensorBoard events
+*.tfevents.*
+
+# Model weights: ignore by default, but keep the deployed checkpoint that ships with the release
+*.pth
+*.pt
+!checkpoints/disen_A1c_retrain_2026_05_08/step_3000.pth
