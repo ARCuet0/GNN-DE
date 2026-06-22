@@ -21,7 +21,7 @@ Repository: https://github.com/ARCuet0/GNN-DE
   MetaBox / `metaevobox`.
 
 ## 2. Deployed model
-- Checkpoint: `checkpoints/disen_A1c_retrain_2026_05_08/step_3000.pth` (~625K parameters).
+- Checkpoint: `checkpoint/published_checkpoint.pth` (~625K parameters).
 - Inference recipe: `--selection random_1pp --M-var 20 --per-m-donors`. The trained surrogate
   is no better than random selection at inference, so deployment uses random selection over
   M=20 proposals (see paper Section 4.4).
@@ -35,7 +35,7 @@ Repository: https://github.com/ARCuet0/GNN-DE
 - **CEC2017 per-function evaluation (D = 10/30/50/100):**
   ```
   TERSQ_BENCHMARK=official python eval_e7d_parallel.py \
-    --ckpt checkpoints/disen_A1c_retrain_2026_05_08/step_3000.pth \
+    --ckpt checkpoint/published_checkpoint.pth \
     --selection random_1pp --M-var 20 --per-m-donors --D 10
   ```
 - **Zero-shot BBOB and protein-docking transfer (MetaBox roster):** the runner and scoring

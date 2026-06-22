@@ -22,7 +22,7 @@ Usage (resumable):
     python eval_metabox/run_protein_raw_ckpt.py --shard-id 17 --n-shards 28 \
         --seeds 51 --maxFEs 2000 --device cpu \
         --agents GNN_DE Random_search MadDE NLSHADELBC \
-        --ckpt checkpoints/disen_A1c_retrain_2026_05_08/step_3000.pth \
+        --ckpt checkpoint/published_checkpoint.pth \
         --out eval_metabox/results/protein_real_51s_2000fes/shard_17.json --resume
 """
 import argparse

@@ -39,7 +39,7 @@ TERSQ_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 _METABOX_CLONE = os.path.join(TERSQ_ROOT, 'literature', 'rl_metabbo', 'MetaBox')
 
 DEPLOYED_CKPT = os.path.join(
-    TERSQ_ROOT, 'checkpoints', 'disen_A1c_retrain_2026_05_08', 'step_3000.pth')
+    TERSQ_ROOT, 'checkpoint', 'published_checkpoint.pth')
 
 # Deployed inference recipe.
 _N = 50

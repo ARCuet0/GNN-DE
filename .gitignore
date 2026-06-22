@@ -15,4 +15,4 @@ RESULTS/
 # Model weights: ignore by default, but keep the deployed checkpoint that ships with the release
 *.pth
 *.pt
-!checkpoints/disen_A1c_retrain_2026_05_08/step_3000.pth
+!checkpoint/published_checkpoint.pth
